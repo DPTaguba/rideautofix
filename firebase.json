@@ -1,0 +1,26 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "rideautofix",
+          "appId": "1:1024721710606:android:1079706a1a85acba26165f",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "rideautofix",
+          "configurations": {
+            "android": "1:1024721710606:android:1079706a1a85acba26165f",
+            "ios": "1:1024721710606:ios:f99b7f1edff5b17d26165f",
+            "web": "1:1024721710606:web:3e5e3b6ace3b2ba026165f"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules"
+  }
+}
